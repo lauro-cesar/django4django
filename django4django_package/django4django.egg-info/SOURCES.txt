@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+django4django/__init__.py
+django4django/admin.py
+django4django/apps.py
+django4django/models.py
+django4django/tests.py
+django4django/version.txt
+django4django/views.py
+django4django.egg-info/PKG-INFO
+django4django.egg-info/SOURCES.txt
+django4django.egg-info/dependency_links.txt
+django4django.egg-info/requires.txt
+django4django.egg-info/top_level.txt
+django4django/migrations/__init__.py

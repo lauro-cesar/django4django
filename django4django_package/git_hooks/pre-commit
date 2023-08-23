@@ -1,0 +1,6 @@
+python3 change_version.py
+
+git add .
+
+
+exit 0

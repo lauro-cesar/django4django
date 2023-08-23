@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django4django
+Version: 0.0.2
+Summary: Create Django apps in runtime mode
+Author-email: Lauro Cesar de Oliveira <lauro@hostcert.com.br>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Django app to create django apps in runtime mode
+
+# Not ready.
+
+# WIP

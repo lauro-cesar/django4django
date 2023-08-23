@@ -1,0 +1,5 @@
+dist
+django4django
+docs
+git_hooks
+requirements

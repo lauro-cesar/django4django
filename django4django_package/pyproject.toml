@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = 'setuptools.build_meta'
+
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+exclude = ["___",".python","__pycache__"]
+
+[tool.setuptools.dynamic]
+version = {attr = "django4django.VERSION"}
+
+
+[project]
+name = "django4django"
+authors = [
+    {name = "Lauro Cesar de Oliveira", email = "lauro@hostcert.com.br"},
+]
+description = "Create Django virtual apps in runtime mode"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "BSD-3-Clause"}
+dynamic = ["version"]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",   
+]
+dependencies = [
+    "Django>=4",
+    "djangorestframework-xml",
+    "djangorestframework",
+    "requests",
+    "numpy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+
+
+
